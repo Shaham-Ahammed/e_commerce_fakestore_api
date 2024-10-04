@@ -36,13 +36,11 @@ class _CartScreenState extends State<CartScreen> {
           } else if (value.cartItems.isEmpty) {
             return Center(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center
-                ,
+                mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Icon(
                     Icons.shopping_cart_outlined,
-                   
                     size: 30,
                   ),
                   AppFont("Empty cart"),
